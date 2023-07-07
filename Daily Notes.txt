@@ -1,0 +1,245 @@
+commun vth the humans --------->lang
+
+comm vth the machines ---->lang----->programming lang(0,1)---unicode
+
+					pop	(procedure oreinted)					oop(object oriented)
+			A,B, COBOL,PHOTON,.....								JAVA,PYTHON,LISP,.NET,CPP......
+			
+			
+			
+			
+			OOPS FEATURES-------->      OOPL
+			
+		PERFORMANCE:-INHERITANCE,POLYMORPHISM
+		SECURITY:-ABSTRACTION,ENCAPSULATION
+			
+			
+			1.PLATFORM INDEPENDENT
+			2.GARBAGE COLLECTOR
+			
+			
+			sun microsys--------->green team
+			
+			-------->green talk(.gt)------->oak----------->java(.java)
+			
+			
+			jdk 1.0------>java 20
+			
+variables:--
+						local variable					global variable
+													static     			instance
+			
+			
+	syntax:-
+				datatype varname;------->variable creation(declaration)
+				
+				datatype varname = value;----->initialization
+				
+	static:--		static datatype varname = value;
+	
+	instance :--	datatype varname = value;
+				
+				
+			
+	memory:-
+	
+	static :-it gets memory space only once at the time of "class loading into the jvm"
+	instance:-it gets memory space for every "object creation"
+	
+	
+	access:-
+	
+	static prop's:- classname.varname
+	instance prop's:-object.varname
+	
+	
+	when to use:-
+	
+	static:-nationality
+	instace:-unique id
+	
+	in jvm:-
+		static:-method area
+		instance:-heap area
+			
+				lang fudamentals:-
+			
+			
+			
+	datatypes:-
+				primitive (predefined)						non-primitive(user defined)
+			
+			class Age
+			{
+			
+					int age=a;	1-100
+			
+			}
+			
+			
+			UNIARY
+			LOGICAL
+			TERINARY			ultra ab
+			RELATIONAL
+			ARITHEMATIC
+			ASSIGNMENT
+			BITWISE
+			
+			
+			
+			java
+					3 parts
+					
+					
+					jse/j2se:-java fundamentals
+					
+					app not following client-server archi
+					
+				
+					
+					jee/j2ee:-advanced core java
+					
+					distributed app
+					
+					
+					
+					jme/j2me:-micro programming
+					
+					mobile app
+					
+					
+			class		
+
+					(1)predefined			(2)custom classes
+					
+					
+		obj creation:-
+		
+					classname objname=new classname();
+					
+					
+		**the default package for any java file is "lang".
+		
+		
+		methods:-
+		
+			signature:-
+			
+						
+					accessmodifier return type method name(params)
+					{
+					
+					//body
+					
+					}
+			
+					(1) predefined			(2)userdefined metd's
+					
+					
+					
+					static met   instace met
+					
+					\	
+					
+		INHERITANCE:-		CODE RESUABILITY	
+
+
+				Getting parent cls prop's into another(child) cls
+				
+				class A{			-------------->parent /super cls
+				//100 met's
+				
+				}
+					
+				class B extends class A{				--> sub cls,child cls
+				
+				
+				//20 met's------>120 met's
+				}	
+					
+					extends 						implements
+					
+			class------>class						interface->interface
+					
+			interface---->interface 
+
+			"Object class is a parent class for every java file".
+			
+			mutliple level
+			
+			class A				class B
+			
+			{					{
+								add(int a,intb)
+									{
+									return a*b;
+									}
+									}	
+			add(int a,intb)
+			{
+			return a+b;
+			}
+			}
+			
+			
+			
+			class C extends A,B
+			{}
+			
+		*In java-MI is not possible at "Class Level"	
+		*MI- is supported in java at "Interface Level"
+		
+		
+		met's:-
+		
+		abstract met:-			a.m	void add();		a.m  abstract void add(){}
+		
+		method without body/Implementation
+		
+					
+		concrete met:-
+			
+		met with body/Implementation	
+					
+					
+					
+					
+		class:-collection of only concrete met's.
+
+
+		abstract cls:-collection of both concrete+abstract met's.
+		
+		
+		interface:-collection of only abstract met's.
+		
+		
+		ABSTRACTION:-We can't create obj for " Interface".
+		
+		ENCAPSULATION:-Wrapping up of data & corresponding met's together.
+		
+		polymorphism:-(1)Method overloading	:-
+											No:-of params
+											order of params
+											type of params
+					(2)Method overriding
+					
+					class A{
+					100 met's
+					
+					}
+					class B extends A{
+					
+					10 met's----->110 met's
+					
+					@Override
+					
+					}
+					
+			Array's:-
+			
+			1.int arr[] =new int[3];--->0,1,2
+				arr[0]=65;
+			2.int arr[]={23,34,45,56,567,};
+			3.
+			
+					

@@ -10,7 +10,5 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-    public App() {
-		// TODO Auto-generated constructor stub
-	}
+  
 }

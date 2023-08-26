@@ -1,0 +1,26 @@
+<html>
+<head><script>
+
+function age(){
+		if(document.getElementById("age")>=18)
+			{
+
+				window.alert("ELIGIBLE TO VOTE!!")
+			}
+
+		else
+			{
+				window.alert("YOR ARE NOT ELIGIBLE FOR THE VOTING")
+			}
+
+
+}
+
+</script>
+</head>
+<body>
+
+<h1>Enter your age:-<input type="text" id="age"><br></h1>
+<button type="button" onclick="age()">VERIFY</button><br>
+</body>
+</html>

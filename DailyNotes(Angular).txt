@@ -1,0 +1,694 @@
+			pop				oop
+			b,bcpl,			java,.net,
+			
+			
+			platform indepency:-(wora)
+			
+			garbage collector:-
+			
+			
+			JDK 1.0--------------------------------->JDK 20
+			
+			3 edt's:
+			
+			jse/j2se:-core java	(CLIENT <-> SERVER)EX:-calculator
+			
+			
+			jee/j2ee:-Distributed app,web app's
+			
+			
+			jme/j2me:-mobile app's
+			
+			
+			keyword(53)----->2 unused
+			
+					-------->3 litreals
+					
+			----------------->'
+			
+			
+			
+			class Parent{
+			
+			10,cr properties(){//body}
+			
+			marriage(){
+			
+			syso(kajol)
+			}
+			
+			class boy extends Parent{
+			
+			10,cr properties(){}
+			@Override 
+			marriage(){
+			
+			syso(gf);
+			
+			}
+			
+			
+			}
+			
+			}
+			
+			arr:-
+			
+			3 met's:-
+			
+			1.int []arrname = {12,34,56,67,56};//intiallization.
+			
+			2.int []arrname = new int[5];
+			
+			3.int []arrname= new int[]{12,34,56,56,67};
+			
+			
+			int []arrname;//declaration
+			
+			limitations:-
+			
+			1.NO utility met's.
+			
+			2.it's not expandable/compressable(cuz it's fixed size)
+			
+			3.only homogenious objects.
+			
+			
+			collections framework:-
+			
+			1.lot's of utility met's.
+			
+			2.it's expandable/compressable.
+			
+			3.it will accept both similar /disimilar obj's.
+			
+			
+			
+			treeset:-
+			
+			
+			lang:-Comparbale:-Compare To()=>Natural sorting order
+			
+			util:-Comparator:-Compare()=>coustimezed order.
+			
+			
+			
+			*sam:-single abstract method.=>functional Interface 
+			
+			
+			ARRAYLIST:-10  [(CC*3/2)+1]==>15+1=16[FIFO]
+			
+			VECTOR:-10[2*CC]   (FILO)
+			
+			file handling:-
+			
+				java.io
+				
+				1.create file		File
+				
+				2.write into file	FileWriter
+									BufferedWriter
+									PrintWriter
+				
+				3.read the file     FileReader
+									BufferedReader
+									
+				
+				
+			String :- collection of char's.
+			
+			
+			String ===> non- primitive
+			
+			java.lang.
+			
+			
+			String 				StringBuffer(mutable)=>synchronised  				StringBuilder(mutable)
+			
+			String :-we can create an immutable string.
+			
+			scp:-it will not allow duplicates into it.
+			
+			
+			MultiThreading:-
+			
+			
+			
+			synchronised				non-synchronised
+			
+			no loss data.				we will loose data.
+			
+			it takes much time			takes less time.
+			
+			
+			
+			synchronised void add()
+			{
+			
+			
+			}
+			synchronised void displayHi(){
+			
+			
+			}
+			
+			
+			multitasking:- executing several tasks  at a time
+			
+			process based mt:-executing several tasks  at a time but each task in independent on each other
+			
+			thread based mt:-executing several tasks  at a time and each task is related to the same app.
+			
+						
+			(1)Implementing Runnable Interface=====>run()
+			
+			(2)Extending Thread class========>run()
+			
+			
+			sam=single abstract method:- functional interface.==>java 8
+			
+			
+			
+			
+			
+			account:-
+			
+			1.create the account
+			
+			*deposit
+			 *withdraw
+			 *fund transfer
+			
+			
+			
+			
+			
+			
+	database:-
+
+			data:-Raw info of any real world entities.
+			
+			database:-To store and to organise the data for future access,security.
+			
+			rdbms:-here the data will be stored in the table
+			
+				rows(records)+columns(fields)
+
+			
+							sql		---------------->queries.	
+
+					5 types of queries:-
+					
+					DDL(Data Definition Language):-create,alter,drop,truncate,rename.=====>saves automatically
+					DML(Data Manipulation Language):-insert,update,delete====>temporary
+					DRL(Data Retrival Language):-select
+					DCL(Data Control Language):-grant,revoke.
+					TCL(Transaction Control Language):-commit,rollback.
+					
+					
+			
+					1.connecting to the db
+						conn /as sysdba
+						
+					2.create an account
+						create user username identified by password;
+					3.for permissions
+						grant connect, resource to username;
+					4.Login to the db account.
+						conn username/password;
+									
+									
+							drop ---delete the entire table
+							truncate -----delete all the records in the table
+			
+			
+			to check the tables in the db:
+				select * from tab;
+			to check the table info:-
+				select * from tablename;
+			to check the structure of the table:-
+				desc tablename;
+			
+			7
+			
+			ULTRA AB
+			
+			
+			reyword
+			
+			
+			dual=>default table;
+			
+			
+			4.7===>5
+			
+			3.2==>3
+			
+			
+			
+			
+			to connect db with java coding:-
+			
+			jdbc:-
+			
+					1.load driver classes
+					2.create a connections
+					3.create a statement
+					4.execute the query
+					5.close the connections
+			
+			
+			jpa(java persistence api):-specifications
+			
+			adv:-
+				1.no exception handling
+				2.no queries							
+				3.no table creation
+				4.no boiler plate code(repeated code.)
+			
+			
+			orm tools(object relational mapping)
+			
+			hibernate;toplink;ibatis;ecllipse link.......
+			
+			
+			EntityManager			
+			
+			crud:-
+			
+			insert = persist()
+			
+			update = merge()
+			
+			select =find()
+			
+			delete =remove()
+			
+			
+			
+			
+	maven:-it's a build tool,which will downloads the jar files to our project.		
+	
+	
+	
+	SPRING FRAMEWORK:-
+					
+					Spring is a non-invasive framework which is used to build light weighted and loosley
+						coupled applications.
+			
+			invasive:-Even though it's a framework it will forces the programmer to implement the predefined classes.
+			
+			non-invasive:-it's a framework, which will not forces the programmer to implement the predefined classes.
+			
+			
+		heavy weighted:-
+						Whatapp implement Servelts(10000)
+			
+						{100 met's    ------>10,100
+						+10,000
+						
+						}
+						
+		light weighted:- less no:of component prop's.
+		
+		tightly coupled:-if dependencies b/n the classes is high ,then the app is called as tightly coupled app.
+		
+		loosley coupled:-if dependencies b/n the classes is high ,then the app is called as tightly coupled app.
+		
+		
+		rod jhonson (entetprise java beans)
+		
+			spring 1.x--->2003
+			
+			spring 4.x
+			
+		
+		
+		spring core======>to create loosley coupled component
+		
+		spring boot,spring data,spirng security;spring cloud;.........
+			
+		spring core:-
+
+				To avoid the dependencies b/n classes. 
+				
+		containers:-To create the objects.
+		
+				(1)BeanFactory
+				(2)ApplicationContext
+				
+		
+		To inject the data into the object:-
+			(1)setter Injection
+			(2)Constructor Injection
+			(3)Autowiring
+		
+		
+		
+	pojo
+	
+	50 classes
+	
+	obj1   obj2 xml ===annotation
+		
+		spring data,spring security,spring cloud,
+		
+		spring boot:-
+		
+		
+		adv's of spring boot:-
+		
+		(1)Auto Configuration
+		(2)Embedded server
+			tomcat is the default server
+			
+		(3)Starters :-collection of jar files
+		
+		(4)Actuators:-status
+		
+		
+	spring core, spring boot ,spring security,spring data
+		
+		spring security:-
+		
+		authentication:-login credentials
+		
+				jwt:-json
+					
+		
+		authorization :-roles(admin,user)
+						role based authorization
+		
+		
+		spring data:-
+			
+			jpaRepository :=crudRepository+Pagination+msi
+			
+			crudRepository
+		
+		
+				sql							hql
+		
+		(table=rows+coloums)----------(class=objs+vars)
+		
+	select * from student;					from Student;
+	
+	select stuid from student;				select stuid from Student;
+		
+		
+		
+		
+		Mockito:-		
+		
+					mockito is framework for testing app's. 
+		
+		
+		
+								Frontend:-
+								
+								computer lang
+								
+					programmimg lang			scripting lang
+		
+		pop				oop						HTML,CSS,
+		
+		
+		
+	pl:-to build the softwares/app's.
+		
+	sl:-to desing website.
+	
+						WEBSITE:-Collection of webpages
+						
+						3 types:-
+						
+			(1)static webpages
+			(2)dynamic webpages
+			(3)server webpages
+			
+			
+			
+			to create webpage ----->html-------> sample.html
+			
+			www=>An interconneted sys of public webpages access through the internet.
+			
+			
+			tags:--
+			
+			<predefined words>
+			
+			<html></html>
+		
+		(1)pair/container tags	----<html></html>
+		(2)single/empty tag		----<br>/<br/>/</br>
+		
+		
+		
+		<html color="red">statement</html>			====>element
+		
+		text format tags:-
+		
+		bold <b></b>
+		italic <i>
+		underline<u>
+		strike through <strike>
+		sub script <sub>
+		super script<sup>
+		strong <strong>
+		
+		marquee:-for text scrolling
+		
+		lists:-<li></li>
+		
+		bullets <ul></ul> &  numbering<ol></ol>
+		
+		image:-<img src="">
+		
+		table:-<table></table>
+		row :-<tr></tr>
+			column:-<td></td>
+			
+			
+		Html forms:-
+		
+		(1)Input box
+		(2)Radio buttons
+		(3)check boxes
+		(4)Text Area
+		(5)Select Options 
+		(6)File Upload
+		(7)SignUp button
+
+		
+		Frames:-<frame>
+					<frameset>
+		
+		
+		Css:-
+					(1)Inline Styling		:-inside the html opening tags through style attribute
+					(2)Internal Styling		:-inside the head tag ,through style tag
+					(3)External Styling		:-styling will do in external style sheet and we will link in the html document.
+		
+		
+		
+		colors:-
+		
+			(1)color name -red,yellow
+			(2)HexaDecimal -#RGB(00-FF)
+			(3)RGB function - rgb(red,green,blue)(0-255)
+			(4)rgb with alpha -regb(red,green,blue(0-255),alpha(0.0-1.0))
+			(5)hsl function - hsl(hue(0-360),saturation(0-100%),lightening(0-100%))
+			(6)hsl with alpha hsl(hue,saturation,lightening,alpha(0.0-1.0))
+			
+			
+		selectors:-
+			
+				
+		(1)Tag name -h1,body,p...
+		(2)Id based (#)
+		(3)class based(.)
+		(4)universal tag(*)
+		
+		javaScript:-
+		
+		netscape
+		
+		To design dynamic webpage.
+		
+	<style>	internal style:-Tag must be inside the <head> tag
+		
+	<script>	javascript:-Tag can either be in <head> tag/<body> tag
+	
+	key features of js:-
+	
+	1.scripting language(client side,server side)
+	
+	2. To design dynamic web pages
+	
+	3.Change the html content
+	
+	4.change the attributes of html tags
+	
+	5.change the css
+	
+	6.hide and display the content
+		
+		
+	function:-	
+		
+		function name(){
+		
+		//implementation
+		}
+		
+		
+		to check the output in js:-
+		
+		.innerHTML - Shows the output based on tag id number(for id:-document.getElementById)
+		
+		window.alert - display the output in an alert box of the webpage
+		
+		console.log - to check the output in the console window
+		
+		document.write - to write the msg on the webpage.
+		
+in java:-		
+		int var = value;
+		
+ in js:-	
+		var varname = value;
+		
+		ex:- var a,b,calculator
+			
+			a=10
+			
+			b="string"
+			
+			
+			
+	bootstrap:-
+			
+		12 columns =>class container
+		
+		col- 
+		
+		col-sm-
+		
+		col-md-
+		
+		col-lg-
+		
+		col-xl-
+		
+		badges:-to provide an extra information
+		
+		<span class="badge">
+		
+		<nav>/class="navbar"/class="nav"
+		
+		
+		
+									html/javascritpt
+									
+		(google)Angular:-Client-side Typescript framework for developing dynamic web-apps .
+		
+				--->	the data in the website will changes based on 3 parameters:-
+				
+			(1)Time				:-news applcations
+			(2)Location			:-google maps
+			(3)User account		:-facebook
+		
+		
+		Angualr js 	(Javascript framework)						Angular (Typescript)
+		
+		
+		
+	Typescript:-	(1)It's the  superset of javaScript
+					(2)It's given by microsoft
+					(3)It's stritctly a typed lang
+					data-types,classes,interface
+					
+					
+			typescript===============>.ts------Transpilation-------->.js
+			
+			
+			(1)install node js in to the pc
+			node js---------->npm(node package manger)
+			(2)To check the node version:-
+			cmd>node -v
+			(3)To install typescirpt into our pc
+			cmd> npm install -g typescirpt
+			(4)To check the typescirpt version
+			cmd> tsc -v
+			
+			
+			
+			(5)To do the Transpiliation:-
+			cmd>tsc filename.ts				(====>Generates a typescirpt file with .js)
+			(6)To execute .js file
+			cmd>node filename.js
+			
+			
+			
+			node --------->typescript----------->angular cli(command line interface)
+			
+				
+					To install angular cli:-
+					
+					cmd>npm install -g @angular/cli
+					
+					to check version of angular 
+					
+					cmd>ng version
+					
+					to create the angualr applcation:-
+					
+					cmd> ng new app-name
+			
+			
+		Building blocks of angular:-
+					
+					Components:-Everthing in webpage is a component
+					
+					Modules:-Grouping of related project file
+					
+					Templates:-Views by HTML/CSS
+					
+					Decorators:-Extra info to Angular Framework
+					
+					Services:-Reusable coding in Angular	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
